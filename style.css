@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    background-color: #26282e;
+    color: #daa520;
+    font-family: 'Lobster', sans-serif;
+    font-size: 28px;
+}
+
+a:link { color: #209781; text-decoration: none;}
+a:visited{color: #209781};
+a:active   {color: #209781;}
+a:hover {color: #E9B64A}
+
+h1{
+    font-size: 64px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 5px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+  
+    
+}
+
+
+p{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.board{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 900px;
+    height: 70vh;
+    border: 5px solid #daa520;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.card {
+    background: url(picture/background.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    border: 2px solid;
+    
+    width: 175px;
+    height: 175px;
+    margin: 15px;
+    cursor: pointer;
+    transition: all .2s ;
+    filter: brightness(80%);
+}
+.cardA{
+    filter: brightness(100%);
+    
+}
+
+.card:hover{
+    filter: brightness(100%);
+    -webkit-box-shadow: 0px 0px 20px 7px rgba(255,255,255,1);
+-moz-box-shadow: 0px 0px 20px 7px rgba(255,255,255,1);
+box-shadow: 0px 0px 20px 7px rgba(255,255,255,1);
+    
+}
+
+.btn
+{
+    background-color: #daa520;
+    cursor: pointer;
+    width: 300px;
+    font-size: 4rem;
+    height: 100px;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10%;
+    
+}
+
+.btn:hover{
+    background-color: #f7c539;
+        
+}
